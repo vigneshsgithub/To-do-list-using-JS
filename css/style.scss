@@ -137,3 +137,31 @@ ul li.checked::before{
     color:black;
 }
 
+
+@media screen and (max-width:600px){
+    .main-container{
+        width: 100%;
+        margin-right: 0;
+    }
+    .input-field input{
+        width: 80%;
+    }
+    .input-button{
+        right: 35px;
+        top: 105px;
+        height: 57px;
+        width: 85px;
+
+    }
+    .task-list ul li{
+        padding: 12px 18px 12px 50px;
+    }
+    .title{
+        margin-left: 10px;
+    }
+    .title-icon{
+        height: 40px;
+        width: 35px;
+    }
+    
+}
