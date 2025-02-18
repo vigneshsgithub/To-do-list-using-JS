@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To-Do List App</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,10 +17,17 @@
                     <img class="title-icon" src="https://cdn-icons-png.flaticon.com/512/1024/1024824.png" alt="">
                   </div>
                   <div class="input-field">
-                    <input type="text" placeholder="Add your task">
-                    <button class="input-button">Add</button>
+                    <input type="text" id="input_box" placeholder="Add your task">
+                    <button class="input-button" onclick="addTask()">Add</button>
+                  </div>
+                  <div class="task-list">
+                    <ul id="ul_task_list">
+                    <!-- <li class="checked">Task 1</li>
+                    <li>Task 2</li>
+                    <li>Task 3</li> -->
                   </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
